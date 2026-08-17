@@ -1,0 +1,16 @@
+tools:
+  subfinder: subfinder
+  amass: amass
+  assetfinder: assetfinder
+  dnsx: dnsx
+  httpx: httpx
+
+settings:
+  subfinder_all: true
+  amass_timeout: 10
+  httpx_threads: 50
+
+output:
+  base_directory: output
+  report_directory: reports
+  log_directory: logs
